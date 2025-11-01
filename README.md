@@ -6,19 +6,19 @@ An interactive, AI-powered travel planner for crafting personalized Indian holid
 
 ## ✨ Features
 
-* ** AAI-Powered Itineraries: Leverages the Google Gemini API (gemini-2.5-flash) to generate creative and practical travel plans from scratch.
-* ** Deep Personalization: Tailors every itinerary based on destination, start/end dates, number of travelers, budget, and specific interests.
-* ** AI Context-Aware Chatbot: Includes an "Ask Anything" chatbot that has your current itinerary in its context, allowing you to ask specific questions about your plan.
-* ** Dynamic Re-planning: Change your plan on the fly! Select a "Rainy Day ☔" or "Low Energy 😴" option to have the AI generate a new, more suitable plan for any given day.
-* ** AI Trip Toolkit: Generate a smart AI Packing List based on your itinerary's activities and an AI Local Guide with must-try foods, cultural etiquette, scams, and basic local phrases.
-* ** Interactive Mapping**: Visualizes the entire trip on an interactive map using Pydeck, pinpointing suggested sights, restaurants, and hotels. 
-* ** Dynamic Map Filtering**: Focus the map on a specific day's activities with the click of a button for a more "pinpointed" view.
-* ** Built-in Expense Tracker: A sidebar tool to log expenses, view a running total, and easily split the bill between all travelers.
-* ** Daily Travel Journal: A dedicated journaling space for each day of your trip to write notes and upload photos, all organized in clean tabs.
-* ** Multi-Language Support**: Supports itinerary generation in multiple languages, including English, Hindi (हिन्दी), Bengali (বাংলা), and Telugu (తెలుగు), with a focus on vernacular usability.
-* ** Actionable Links & Safety: Integrates quick-access buttons for booking (Flights, Hotels), services (Uber, Restaurants), and a Medical Emergency button to find nearby hospitals.
-* ** Detailed Budget Breakdown: Provides an AI-generated table allocating your budget across categories like accommodation, food, and activities.
-* ** PDF Export**: Allows users to download their complete itinerary as a PDF, with full support for vernacular language characters.
+* AAI-Powered Itineraries: Leverages the Google Gemini API (gemini-2.5-flash) to generate creative and practical travel plans from scratch.
+*  Deep Personalization: Tailors every itinerary based on destination, start/end dates, number of travelers, budget, and specific interests.
+*  AI Context-Aware Chatbot: Includes an "Ask Anything" chatbot that has your current itinerary in its context, allowing you to ask specific questions about your plan.
+*  Dynamic Re-planning: Change your plan on the fly! Select a "Rainy Day ☔" or "Low Energy 😴" option to have the AI generate a new, more suitable plan for any given day.
+*  AI Trip Toolkit: Generate a smart AI Packing List based on your itinerary's activities and an AI Local Guide with must-try foods, cultural etiquette, scams, and basic local phrases.
+*  Interactive Mapping**: Visualizes the entire trip on an interactive map using Pydeck, pinpointing suggested sights, restaurants, and hotels. 
+*  Dynamic Map Filtering**: Focus the map on a specific day's activities with the click of a button for a more "pinpointed" view.
+*  Built-in Expense Tracker: A sidebar tool to log expenses, view a running total, and easily split the bill between all travelers.
+*  Daily Travel Journal: A dedicated journaling space for each day of your trip to write notes and upload photos, all organized in clean tabs.
+*  Multi-Language Support**: Supports itinerary generation in multiple languages, including English, Hindi (हिन्दी), Bengali (বাংলা), and Telugu (తెలుగు), with a focus on vernacular usability.
+*  Actionable Links & Safety: Integrates quick-access buttons for booking (Flights, Hotels), services (Uber, Restaurants), and a Medical Emergency button to find nearby hospitals.
+*  Detailed Budget Breakdown: Provides an AI-generated table allocating your budget across categories like accommodation, food, and activities.
+*  PDF Export**: Allows users to download their complete itinerary as a PDF, with full support for vernacular language characters.
 
 
 
