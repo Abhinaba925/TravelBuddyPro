@@ -6,7 +6,7 @@ An interactive, AI-powered travel planner for crafting personalized Indian holid
 
 ## ✨ Features
 
-* AAI-Powered Itineraries: Leverages the Google Gemini API (gemini-2.5-flash) to generate creative and practical travel plans from scratch.
+*  AI-Powered Itineraries: Leverages the Google Gemini API (gemini-2.5-flash) to generate creative and practical travel plans from scratch.
 *  Deep Personalization: Tailors every itinerary based on destination, start/end dates, number of travelers, budget, and specific interests.
 *  AI Context-Aware Chatbot: Includes an "Ask Anything" chatbot that has your current itinerary in its context, allowing you to ask specific questions about your plan.
 *  Dynamic Re-planning: Change your plan on the fly! Select a "Rainy Day ☔" or "Low Energy 😴" option to have the AI generate a new, more suitable plan for any given day.
