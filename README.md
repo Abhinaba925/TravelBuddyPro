@@ -30,7 +30,7 @@ This project is built with a modern, open-source stack:
 
 * **Frontend**: Streamlit
 * **AI Model**: Google Gemini
-* **Mapping**: Pydeck & Mapbox
+* **Mapping**: Pydeck & Carto
 * **Data Handling**: Pandas
 * **PDF Generation**: FPDF2
 * **Deployment**: Streamlit Community Cloud
