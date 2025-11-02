@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from fpdf import FPDF
 from urllib.parse import quote
 from datetime import datetime, timedelta
+import base64
 
 # --- Load Environment Variables ---
 load_dotenv()
@@ -29,6 +30,38 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# --- (UPDATED) Function to set background ---
+def set_background_image(file_path):
+    """
+    Sets the background image for the Streamlit app.
+    """
+    try:
+        with open(file_path, "rb") as f:
+            img_bytes = f.read()
+        encoded_img = base64.b64encode(img_bytes).decode()
+        
+        # --- (CSS MODIFIED to fill/cover the page) ---
+        page_bg_img_css = f"""
+        <style>
+        [data-testid="stAppViewContainer"] {{
+            background-image: url("data:image/png;base64,{encoded_img}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+        </style>
+        """
+        # --- (END OF MODIFICATION) ---
+        
+        st.markdown(page_bg_img_css, unsafe_allow_html=True)
+    except FileNotFoundError:
+        st.error(f"Background image file '{file_path}' not found. Please make sure it's in the same directory as the script.")
+
+# Call the function to set the background
+set_background_image("wallpaper.png")
+# --- (END NEW) ---
+
 
 # --- Data Loading & Icon ---
 ICON_URL = "https://img.icons8.com/plasticine/100/000000/marker.png"
@@ -636,3 +669,4 @@ if st.session_state.plan:
 # Disclaimer
 st.markdown("---")
 st.warning("Disclaimer: TravelBuddy is a prototype. All recommendations should be independently verified.", icon="⚠️")
+
