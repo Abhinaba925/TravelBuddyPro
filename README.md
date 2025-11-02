@@ -33,7 +33,7 @@ This project is built with a modern, open-source stack:
 * **Mapping**: Pydeck & Carto
 * **Data Handling**: Pandas
 * **PDF Generation**: FPDF2
-* **Deployment**: Streamlit Community Cloud
+* **Deployment**: Google Cloud and Streamlit Community Cloud
 
 ---
 
