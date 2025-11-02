@@ -106,7 +106,7 @@ This application is deployed and live on Streamlit Community Cloud.
 
 **Live Demo**: [TravelBuddy Pro App (Streamlit Cloud)](https://travelbuddypro-nqzhqdsuedvuwgsym8zbmu.streamlit.app/) or [TravelBuddy Pro App (Google Cloud)](https://travelbuddy-app-service-141734267607.us-central1.run.app/)
 
-**Youtube Demo**: [TravelBuddy Pro - Gen AI Exchange Hackathon Demo (Gemini API + Google Cloud Run)](https://www.youtube.com/watch?v=yt0PL-XtQTM)
+**Youtube Demo**: [TravelBuddy Pro - Gen AI Exchange Hackathon Demo (Gemini API + Google Cloud Run)](https://www.youtube.com/watch?v=MNYF8EFYBfk)
 
 
 Deployment is handled automatically by Streamlit Cloud whenever a new commit is pushed to the main branch of the GitHub repository. Secrets (`GOOGLE_API_KEY` and `MAPBOX_API_TOKEN`) are configured directly in the Google Cloud and Streamlit Cloud dashboard for security.
