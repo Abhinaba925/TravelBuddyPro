@@ -105,6 +105,7 @@ streamlit run app.py
 This application is deployed and live on Streamlit Community Cloud.
 
 **Live Demo**: [TravelBuddy Pro App (Streamlit Cloud)](https://travelbuddypro-nqzhqdsuedvuwgsym8zbmu.streamlit.app/) or [TravelBuddy Pro App (Google Cloud)](https://travelbuddy-app-service-141734267607.us-central1.run.app/)
+
 **Youtube Demo**: [TravelBuddy Pro - Gen AI Exchange Hackathon Demo (Gemini API + Google Cloud Run)](https://www.youtube.com/watch?v=yt0PL-XtQTM)
 
 *(Note: Replace the link above with the actual URL of your deployed app)*
